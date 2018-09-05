@@ -1,0 +1,3 @@
+The challenge have no pthread_mutex_lock in main thread so it all has race condition bug lead to double free when switch to real accout. This bug is enough to exploit.
+
+writeup of david942j: https://github.com/david942j/ctf-writeups/tree/master/meepwnctf-2018/Coin
