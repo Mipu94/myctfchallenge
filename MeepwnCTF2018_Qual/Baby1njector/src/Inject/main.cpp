@@ -297,7 +297,6 @@ int GetInjectInfo(char *pre_key){
 	hDll = LoadLibraryA(Loader_Path);
   	loadLibAddr = (LPVOID)GetProcAddress(hDll, "LoadML");
 
-	//PwC.dll
 	Parent_Iinfo->RemoteDllSegment = RemoteDllSegment;
 	Parent_Iinfo->LenghtRemoteDllSegment = dllFileLength;
 	Parent_Iinfo->RemoteArgsSegment = BUFF_RMT;
