@@ -649,7 +649,7 @@ int main(){
 	PlayGame();
 	if(AtributeInfo)
 	{
-		FILE *ptr = fopen("/home/mipu94/mychallenge/data","w");
+		FILE *ptr = fopen("/tmp/data","w");
 		if(ptr == NULL ) { perror("open file error"); exit(-1);}
 		sprintf(buf, "Contact info: %s",AtributeInfo);
 		fscanf(ptr,"%s",buf);
